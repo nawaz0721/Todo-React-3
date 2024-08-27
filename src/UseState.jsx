@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "./component/Button";
+import Button from "./component/Button.jsx";
 
 function UseState() {
   const [todoName, setTodoName] = useState("");
